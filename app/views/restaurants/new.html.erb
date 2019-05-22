@@ -1,0 +1,9 @@
+<h1>Créer un nouveau restaurant</h1>
+<p>Find me in app/views/restaurants/new.html.erb</p>
+
+<%= simple_form_for @restaurant do |r| %>
+  <%= r.input :name %>
+  <%= r.input :address %>
+  <%= r.input :category %>
+  <%= r.button :submit %>
+<% end %>
